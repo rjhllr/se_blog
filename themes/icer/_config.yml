@@ -1,0 +1,25 @@
+# Meta
+description: A geeker blog.
+keywords: hexo,theme,icer,ggice
+
+# Navigation
+navigation:
+- name: Einstieg
+  slug: home
+  url: /
+- name: Checkliste
+  slug: checklist
+  url: /checklist
+- name: Impressum
+  slug: imprint
+  url: /imprint
+
+# Google analytics
+google_analytics: UA-93986029-1
+
+# Local search
+local_search:
+  enable: false
+
+# Favicon
+#favicon: /image/favicon.ico
