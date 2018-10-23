@@ -6,10 +6,16 @@
 }
 
 .post {
+  &.accent{
+    background: $blueBgAccent;
+  }
+}
+
+.post {
   background: $white;
   padding: 20px 35px;
   margin-bottom: 45px;
-  transition: box-shadow 0.3s ease-in-out 0s;  
+  transition: box-shadow 0.3s ease-in-out 0s;
 
   &:hover {
     box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
@@ -17,13 +23,12 @@
 
   .post-header {
     text-align: center;
-    text-transform: uppercase;
 
     > h2 {
       font-size: 22px;
       line-height: 22px;
       transition: font-size 0.3s ease-in-out 0s;
-      
+
       &:hover {
         font-size: 23px;
       }
@@ -32,9 +37,8 @@
 
   .title {
     margin: 20px 0 10px 0;
-    text-align: center;
-    text-transform: uppercase;
-    
+    text-align: left;
+
     a {
       color: #252525;
     }
@@ -56,9 +60,8 @@
   }
 
   .readmore {
-    text-transform: uppercase;
     margin: 20px 0;
-    text-align: center;
+    text-align: right;
 
     & a::before {
       font-size: 13px;
@@ -69,7 +72,7 @@
       top: 3px;
       margin-left: 50%;
     }
-  
+
     & a:hover {
       &::before {
         opacity: 1;
@@ -77,6 +80,7 @@
       }
     }
   }
+
 
   .tags {
     text-transform: uppercase;
